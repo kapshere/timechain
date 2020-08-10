@@ -1,0 +1,25 @@
+{
+  "name": "timechain",
+  "version": "1.0.0",
+  "description": "basic website for company",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kapshere/timechain.git"
+  },
+  "keywords": [
+    "timechain"
+  ],
+  "author": "kapil jain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kapshere/timechain/issues"
+  },
+  "homepage": "https://github.com/kapshere/timechain#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}

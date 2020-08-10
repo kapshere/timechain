@@ -1,5 +1,5 @@
-@import "config";
-@import "menu";
+@import 'config';
+@import 'menu';
 
 .menu-btn {
   position: absolute;
@@ -30,7 +30,7 @@ body {
   color: set-text-color ($primary-color);
   height: 100%;
   margin: 0;
-  font-family: "Tahoma", Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Tahoma', Verdana, Geneva, Tahoma, sans-serif;
   line-height: 1.5;
 }
 
@@ -89,8 +89,8 @@ main {
   display: grid;
   grid-gap: 30px;
   grid-template-areas:
-    "bioimage bio bio"
-    "job1 job2 job3";
+    'bioimage bio bio'
+    'job1 job2 job3';
   grid-template-columns: repeat(3, 1fr);
 
   .bio-image {
@@ -191,4 +191,4 @@ main {
   color: set-text-color($primary-color);
   height: 60px;
 }
-@import "mobile";
+@import 'mobile';
